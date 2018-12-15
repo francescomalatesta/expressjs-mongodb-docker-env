@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+USER_ID=$(id -u -r)
+
+docker-compose up "$@"
