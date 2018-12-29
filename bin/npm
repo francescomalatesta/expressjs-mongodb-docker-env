@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 USER_ID=$(id -u -r)
 
-docker-compose run -u $USER_ID app npm "$@"
+docker-compose run app npm "$@"
